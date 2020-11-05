@@ -1,6 +1,6 @@
 create table billboard (
-	artists varchar(255),
-	name varchar(255),
+	artists varchar,
+	name varchar,
 	weekly_rank int,
 	peak_position int,
 	weeks_on_chart int,
@@ -15,15 +15,13 @@ create table billboard (
 
 --need to update this once we update the column names of spotify df
 create table spotify (
-	track.album.album_type varchar(255),
-	track.album.id varchar(255),
-	track.album.name varchar(255),
-	track.album.release_date varchar(255),
-	track.album.total_tracks int,
-	track.album.type varchar(255),
-	track.duration_ms varchar(255),
-	track.explicit varchar(255),
-	track.id varchar(255),
-	track.name varchar (255),
-	artists varchar (255)
+	album_type varchar,
+	album_id type varchar,
+	album_name type varchar,
+	album_release_date type varchar,
+	duration_ms type int,
+	explicit varchar,
+	track_id varchar,
+	track_name varchar,
+	artists varchar
 	);

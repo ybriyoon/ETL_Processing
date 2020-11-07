@@ -1,4 +1,4 @@
-# Team-3 ETL Project
+# ETL Project Proposal
 
 ### Group members 
 - Yeonjae Riyoon
